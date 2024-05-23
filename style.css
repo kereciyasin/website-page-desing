@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  unicode-bidi: isolate;
+  align-items: center;
+}
+.left img {
+  width: 60px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.header .right {
+  display: flex;
+  /* unicode-bidi: isolate; */
+  /* float: right; */
+  color: #920101;
+  /* padding-bottom: 1.7rem;
+  padding-right: 0.5rem; */
+  gap: 0.5rem;
+}
+.header .right a:hover {
+  text-decoration: underline;
+  
+}
+.right a {
+  font-weight: 700;
+  color: #920101;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-bar {
+  display: block;
+  unicode-bidi: isolate;
+  position: sticky;
+  top: 0rem;
+  padding: 2rem;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  text-align: center;
+  z-index: 1;
+}
+.nav-bar a {
+  font-family: "DynaPuff", cursive;
+  text-decoration: none;
+  color: black;
+  margin-right: 0.8rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.nav-bar a:hover {
+  color: white;
+}
