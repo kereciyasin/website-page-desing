@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap");
+
+:root {
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+:root {
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+:root {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
 * {
   padding: 0;
   margin: 0;
@@ -33,7 +47,6 @@ img {
 }
 .header .right a:hover {
   text-decoration: underline;
-  
 }
 .right a {
   font-weight: 700;
@@ -61,4 +74,135 @@ img {
 }
 .nav-bar a:hover {
   color: white;
+}
+.main {
+  position: relative;
+  display: block;
+  unicode-bidi: isolate;
+}
+.banner-img {
+  width: 100%;
+  max-height: calc(100vh - 240px);
+}
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+.text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+section h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0px 2px 4px black;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.text h3 {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: red;
+  text-shadow: 0px 2px 4px grey;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #d9afd9;
+  font-weight: 700;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(217, 175, 217, 0.5);
+}
+.slack {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 0.16rem;
+  display: block;
+  unicode-bidi: isolate;
+}
+.fa-brands,
+.fab {
+  font-weight: 400;
+}
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+}
+
+.fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+i {
+  font-style: italic;
+}
+.slack:hover {
+  cursor: pointer;
+  outline: 2px solid red;
+  outline-offset: 3px;
+  color: black;
+}
+main {
+  padding: 2rem;
+  text-align: justify;
+  display: block;
+  unicode-bidi: isolate;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
